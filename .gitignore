@@ -13,9 +13,11 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+*.swp
+*.swo
