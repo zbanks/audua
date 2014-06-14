@@ -1,4 +1,4 @@
-update=Wed 11 Jun 2014 12:16:44 PM EDT
+update=6/14/2014 2:20:38 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -47,9 +47,6 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
 LibDir=
 NetFmtName=
 RptD_X=0
@@ -88,3 +85,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=stm32l051xx
+LibName32=spu0414hr5h-sb
+LibName33=microsd
