@@ -40,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "15 jun 2014"
+Date "2 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1012,12 +1012,12 @@ $EndComp
 $Comp
 L CONN_1 P4
 U 1 1 539CF245
-P 6950 4550
-F 0 "P4" H 7030 4550 40  0000 L CNN
-F 1 "CONN_1" H 6950 4605 30  0001 C CNN
-F 2 "" H 6950 4550 60  0000 C CNN
-F 3 "" H 6950 4550 60  0000 C CNN
-	1    6950 4550
+P 6950 5000
+F 0 "P4" H 7030 5000 40  0000 L CNN
+F 1 "CONN_1" H 6950 5055 30  0001 C CNN
+F 2 "" H 6950 5000 60  0000 C CNN
+F 3 "" H 6950 5000 60  0000 C CNN
+	1    6950 5000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1032,7 +1032,7 @@ F 3 "" H 7050 4550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6950 4300 6950 4400
+	6950 4300 6950 4850
 Wire Wire Line
 	7050 4300 7050 4400
 Wire Wire Line
@@ -1102,4 +1102,8 @@ Wire Wire Line
 	9900 6850 10050 6850
 Wire Wire Line
 	10050 6850 10050 6900
+Text Label 7100 4850 0    60   ~ 0
+SD_Detect
+Wire Wire Line
+	6950 4850 7100 4850
 $EndSCHEMATC
